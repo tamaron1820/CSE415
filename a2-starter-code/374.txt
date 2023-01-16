@@ -1,0 +1,4 @@
+What "closest" gurantee is that heuristic cannot be determined to be greater or less than true cost. The best heuristic has admissibility. The condition of admissibility is that heuristic never overestimates the distance from current state to the closest goal. In short, most important thing is that heuristic never overestimates the distance from current state to the closest goal to have admissibility. However,There is a possibility that the heuristic value is greater than the true cost for the "closest" expression. That is why sometimes closest heuristic does not meet the best condition as the best heuristic.
+
+
+I think h2 heuristic is the best one to use with A* search. What is the necessary condition as the best heuristic is that heuristic has admissibility and consistency. As you can see from (b) and (c) the heuristic which has admissibility and consistency is h2. That is why the h2 heuristic is the best for A* search heuristic.

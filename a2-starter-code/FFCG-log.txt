@@ -1,0 +1,262 @@
+
+Welcome to ItrDFS
+Initial State:
+
+ F on left:1
+ f on left:1
+ c on left:1
+ g on left:1
+   F on right:0
+   f on right:0
+   c on right:0
+   g on right:0
+ ferry is on the left.
+
+len(OPEN)= 1; len(CLOSED)= 0; COUNT = 0
+OPEN is now: 
+ F on left:0
+ f on left:1
+ c on left:0
+ g on left:1
+   F on right:1
+   f on right:0
+   c on right:1
+   g on right:0
+ ferry is on the right.
+
+len(OPEN)= 1; len(CLOSED)= 1; COUNT = 1
+OPEN is now: 
+ F on left:1
+ f on left:1
+ c on left:0
+ g on left:1
+   F on right:0
+   f on right:0
+   c on right:1
+   g on right:0
+ ferry is on the left.
+
+len(OPEN)= 1; len(CLOSED)= 2; COUNT = 2
+OPEN is now: 
+ F on left:0
+ f on left:0
+ c on left:0
+ g on left:1
+   F on right:1
+   f on right:1
+   c on right:1
+   g on right:0
+ ferry is on the right.
+, 
+ F on left:0
+ f on left:1
+ c on left:0
+ g on left:0
+   F on right:1
+   f on right:0
+   c on right:1
+   g on right:1
+ ferry is on the right.
+
+len(OPEN)= 2; len(CLOSED)= 3; COUNT = 3
+OPEN is now: 
+ F on left:1
+ f on left:0
+ c on left:1
+ g on left:1
+   F on right:0
+   f on right:1
+   c on right:0
+   g on right:0
+ ferry is on the left.
+, 
+ F on left:0
+ f on left:1
+ c on left:0
+ g on left:0
+   F on right:1
+   f on right:0
+   c on right:1
+   g on right:1
+ ferry is on the right.
+
+len(OPEN)= 2; len(CLOSED)= 4; COUNT = 4
+OPEN is now: 
+ F on left:0
+ f on left:0
+ c on left:1
+ g on left:0
+   F on right:1
+   f on right:1
+   c on right:0
+   g on right:1
+ ferry is on the right.
+, 
+ F on left:0
+ f on left:1
+ c on left:0
+ g on left:0
+   F on right:1
+   f on right:0
+   c on right:1
+   g on right:1
+ ferry is on the right.
+
+len(OPEN)= 2; len(CLOSED)= 5; COUNT = 5
+OPEN is now: 
+ F on left:1
+ f on left:0
+ c on left:1
+ g on left:0
+   F on right:0
+   f on right:1
+   c on right:0
+   g on right:1
+ ferry is on the left.
+, 
+ F on left:1
+ f on left:1
+ c on left:1
+ g on left:0
+   F on right:0
+   f on right:0
+   c on right:0
+   g on right:1
+ ferry is on the left.
+, 
+ F on left:0
+ f on left:1
+ c on left:0
+ g on left:0
+   F on right:1
+   f on right:0
+   c on right:1
+   g on right:1
+ ferry is on the right.
+
+len(OPEN)= 3; len(CLOSED)= 6; COUNT = 6
+OPEN is now: 
+ F on left:0
+ f on left:0
+ c on left:0
+ g on left:0
+   F on right:1
+   f on right:1
+   c on right:1
+   g on right:1
+ ferry is on the right.
+, 
+ F on left:1
+ f on left:1
+ c on left:1
+ g on left:0
+   F on right:0
+   f on right:0
+   c on right:0
+   g on right:1
+ ferry is on the left.
+, 
+ F on left:0
+ f on left:1
+ c on left:0
+ g on left:0
+   F on right:1
+   f on right:0
+   c on right:1
+   g on right:1
+ ferry is on the right.
+
+len(OPEN)= 3; len(CLOSED)= 7; COUNT = 7
+Congratulations on successfully guiding the humans and robots across the creek!
+Solution path: 
+
+ F on left:1
+ f on left:1
+ c on left:1
+ g on left:1
+   F on right:0
+   f on right:0
+   c on right:0
+   g on right:0
+ ferry is on the left.
+
+
+ F on left:0
+ f on left:1
+ c on left:0
+ g on left:1
+   F on right:1
+   f on right:0
+   c on right:1
+   g on right:0
+ ferry is on the right.
+
+
+ F on left:1
+ f on left:1
+ c on left:0
+ g on left:1
+   F on right:0
+   f on right:0
+   c on right:1
+   g on right:0
+ ferry is on the left.
+
+
+ F on left:0
+ f on left:0
+ c on left:0
+ g on left:1
+   F on right:1
+   f on right:1
+   c on right:1
+   g on right:0
+ ferry is on the right.
+
+
+ F on left:1
+ f on left:0
+ c on left:1
+ g on left:1
+   F on right:0
+   f on right:1
+   c on right:0
+   g on right:0
+ ferry is on the left.
+
+
+ F on left:0
+ f on left:0
+ c on left:1
+ g on left:0
+   F on right:1
+   f on right:1
+   c on right:0
+   g on right:1
+ ferry is on the right.
+
+
+ F on left:1
+ f on left:0
+ c on left:1
+ g on left:0
+   F on right:0
+   f on right:1
+   c on right:0
+   g on right:1
+ ferry is on the left.
+
+
+ F on left:0
+ f on left:0
+ c on left:0
+ g on left:0
+   F on right:1
+   f on right:1
+   c on right:1
+   g on right:1
+ ferry is on the right.
+
+Length of solution path found: 7 edges
+Number of states expanded: 7
+Maximum length of the open list: 3
