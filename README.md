@@ -17,7 +17,7 @@ pip3 install pygame
 ```
 
 # Usage
-サーバー立ち上げ
+実行
 ```bash
 git clone git@github.com:tamaron1820/CSE415.git
 cd CSE415/a3-starter-code/
